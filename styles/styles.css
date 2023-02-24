@@ -9,19 +9,19 @@ body{
     grid-template-columns: 80%;
     justify-content: center;
     margin-top: 3rem;
-    background: #828489;
+    background: #c4e4ff;
 }
 
 .addItems-container{
-    background: #4d7ea8;
+    background: #0083f6;
 }
 
 .addItems-container, .displayItems-container{
     margin: 1rem 0;
     padding: 2rem;
-    border-radius: 0.5rem;
+    border-radius: 1%;
     text-align: center;
-    border: 2px solid #272932;
+    border: 1px transparent;
     box-shadow: 0 5px 10px #272932;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .addItems-title{
-    color: #b6c2d9;
+    color: #ffffff;
 }
 
 .addItems-action, .displayItems-action{
@@ -44,11 +44,11 @@ body{
 .addItems-input{
     background: transparent;
     border: none;
-    border-bottom: 5px solid #9e90a2;
+    border-bottom: 5px solid #ffffff;
     width: 100%;
     font-size: 2rem;
     padding: 0.5rem;
-    color: #9e90a2;
+    color: #ffffff;
     outline: none;
     text-transform: uppercase;
 }
@@ -65,23 +65,23 @@ body{
 }
 
 .addItems-submit{
-    color: #b6c2d9;
+    color: #ffffff;
     background: transparent;
-    border: 3px solid #b6c2d9;
+    border: 3px solid #ffffff;
     transition: all 2s ease;
 }
 
 .addItems-submit:hover{
-    background: #b6c2d9;
+    background: #ffffff;
     color: #272932;
 }
 
 .displayItems-container{
-    background: #b6c2d9;
+    background: #ffffff;
 }
 
 .displayItems-title{
-    color: #4d7ea8;
+    color: #0083f6;
     margin-bottom: 0.25rem;
 }
 
@@ -96,7 +96,7 @@ body{
 }
 
 .grocery-item:hover{
-    background: #828489;
+    background: #ff0000;
 }
 
 .grocery-item__title{
@@ -104,7 +104,7 @@ body{
     margin-left: 0.5rem;
     font-size: 1.2rem;
     text-transform: capitalize;
-    color: #272932;
+    color: #0083f6;
 }
 
 .grocery-item__link{
@@ -117,17 +117,22 @@ body{
 }
 
 .displayItems-clear{
-    color: #4d7ea8;
+    color: #0083f6;
     background: transparent;
-    border: 3px solid #4d7ea8;
+    border: 3px solid #0083f6;
     transition: all 2s ease;
 }
 
 .displayItems-clear{
-    background: #4d7ea8;
+    background: #0083f6;
     color:#272932;
     outline:none;
     background: transparent;
+}
+
+.displayItems-clear:hover{
+    background: #0083f6;
+    color: #272932;
 }
 /*Add utility action classes */
 .alert{
