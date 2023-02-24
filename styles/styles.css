@@ -12,12 +12,18 @@ body{
     background: #c4e4ff;
 }
 
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .addItems-container{
     background: #0083f6;
 }
 
 .addItems-container, .displayItems-container{
-    margin: 1rem 0;
+    margin: 0.75rem;
     padding: 2rem;
     border-radius: 1%;
     text-align: center;
@@ -44,7 +50,7 @@ body{
 .addItems-input{
     background: transparent;
     border: none;
-    border-bottom: 5px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     width: 100%;
     font-size: 2rem;
     padding: 0.5rem;
@@ -96,7 +102,7 @@ body{
 }
 
 .grocery-item:hover{
-    background: #ff0000;
+    background: #ffb3b3;
 }
 
 .grocery-item__title{
